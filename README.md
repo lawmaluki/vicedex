@@ -2,7 +2,7 @@
 
 An unofficial, fan-made companion for Grand Theft Auto VI. Not affiliated with or endorsed by Rockstar Games.
 
-The visual style follows the ViceDex design canvas: near-black background, burgundy glow, rose-pink accent, glass cards and a floating nav with a glowing centre button.
+The visual style is flat and dark: near-black background, rose-pink accent, translucent cards, Inter type and Phosphor icons, with a floating pill nav.
 
 ## Run it
 
