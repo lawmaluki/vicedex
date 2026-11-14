@@ -4,6 +4,8 @@ import 'package:vicedex/main.dart';
 import 'package:vicedex/models/models.dart';
 import 'package:vicedex/utils/format.dart';
 
+import 'support/test_pack.dart';
+
 Vehicle _car(String id, double? speed, [VehicleClass c = VehicleClass.cars]) => Vehicle(
       id: id,
       name: id,
@@ -50,12 +52,15 @@ void main() {
   });
 
   testWidgets('vehicle sheet shows rank, specs, tags and TBD values', (tester) async {
-    await tester.pumpWidget(const ViceDexApp(useGoogleFonts: false));
+    final state = await loadedState();
+    addTearDown(state.dispose);
+
+    await tester.pumpWidget(ViceDexApp(useGoogleFonts: false, state: state));
     await tester.pumpAndSettle();
 
     await tester.tap(find.byTooltip('Vehicles'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Sample muscle car'));
+    await tester.tap(find.text('Test muscle car'));
     await tester.pumpAndSettle();
 
     expect(find.text('Added in Launch 1.0'), findsOneWidget);

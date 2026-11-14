@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.2.1
+  http: ^1.6.0
   phosphor_flutter: ^2.1.0
 
 dev_dependencies:
@@ -20,3 +21,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    # Built by backend/ingest/build_pack.py. Offline fallback and first-frame
+    # content; refreshed over HTTP when VICEDEX_PACK_URL is set.
+    - assets/content_pack.json

@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
+import '../data/backend_client.dart';
 import '../models/models.dart';
+import '../state/app_state.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common.dart';
 
-/// Community submission form. Frontend only: nothing is sent anywhere yet.
+/// Community submission form.
+///
+/// Sends the cheat to the backend's moderation queue. Nothing submitted here
+/// reaches other users until a moderator approves it, and approved entries
+/// enter the content pack as Unverified, never Verified.
 Future<void> showSubmitSheet(BuildContext context) {
   return showModalBottomSheet<void>(
     context: context,
@@ -29,6 +35,7 @@ class _SubmitSheetState extends State<_SubmitSheet> {
   final _notes = TextEditingController();
   GamePlatform _platform = GamePlatform.ps5;
   CheatCategory _category = CheatCategory.vehicles;
+  bool _sending = false;
 
   @override
   void dispose() {
@@ -38,13 +45,53 @@ class _SubmitSheetState extends State<_SubmitSheet> {
     super.dispose();
   }
 
-  void _submit() {
+  Future<void> _submit() async {
     if (!(_form.currentState?.validate() ?? false)) return;
+    if (_sending) return;
+
+    final app = AppScope.of(context);
     final messenger = ScaffoldMessenger.of(context);
-    Navigator.of(context).pop();
-    messenger.showSnackBar(
-      const SnackBar(content: Text('Thanks! It will show as Unverified until it’s tested.')),
-    );
+    final navigator = Navigator.of(context);
+
+    // One glyph per button, as the detail screen's chips render them.
+    final sequence = _sequence.text
+        .trim()
+        .split(RegExp(r'[\s,]+'))
+        .where((token) => token.isNotEmpty)
+        .toList(growable: false);
+
+    if (!app.hasBackend) {
+      navigator.pop();
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Submissions need a backend. This build has none configured.'),
+      ));
+      return;
+    }
+
+    setState(() => _sending = true);
+    try {
+      await app.submitCheat(
+        title: _title.text,
+        category: _category,
+        sequence: sequence,
+        sourceNote: _notes.text,
+      );
+      if (!mounted) return;
+      navigator.pop();
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Thanks! It will show as Unverified until it’s tested.'),
+      ));
+    } on BackendException catch (error) {
+      if (!mounted) return;
+      setState(() => _sending = false);
+      messenger.showSnackBar(SnackBar(content: Text(error.message)));
+    } catch (_) {
+      if (!mounted) return;
+      setState(() => _sending = false);
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Could not reach the server. Try again when you are online.'),
+      ));
+    }
   }
 
   @override
@@ -116,8 +163,14 @@ class _SubmitSheetState extends State<_SubmitSheet> {
               _Field(label: 'Notes (optional)', controller: _notes, hint: 'Where and how you tested it', maxLines: 3),
               const SizedBox(height: 20),
               FilledButton(
-                onPressed: _submit,
-                child: const Text('Submit for testing'),
+                onPressed: _sending ? null : _submit,
+                child: _sending
+                    ? const SizedBox(
+                        height: 18,
+                        width: 18,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      )
+                    : const Text('Submit for testing'),
               ),
               const SizedBox(height: 12),
               Text(kDisclaimer, textAlign: TextAlign.center, style: AppText.small(context).copyWith(color: AppColors.muted, height: 1.5)),

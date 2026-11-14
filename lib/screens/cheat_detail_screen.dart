@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../data/backend_client.dart';
 import '../models/models.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
@@ -45,6 +46,9 @@ class _CheatDetailScreenState extends State<CheatDetailScreen> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final cheat = app.cheatById(widget.cheatId);
+    // The pack can be refreshed while this screen is open, so an id that
+    // existed when it was pushed may be gone. Say so rather than crashing.
+    if (cheat == null) return const _CheatMissing();
     final platform = app.platform;
     final seq = cheat.sequenceFor(platform);
     final fav = app.isFavourite(cheat.id);
@@ -127,6 +131,19 @@ class _CheatDetailScreenState extends State<CheatDetailScreen> {
                         textAlign: TextAlign.center,
                         style: AppText.caption(context),
                       ),
+                    ],
+                    if (cheat.isLegacy) ...[
+                      const SizedBox(height: 10),
+                      Text(
+                        'A real GTA V code, shown for reference. '
+                        'It is not confirmed to work in GTA VI.',
+                        textAlign: TextAlign.center,
+                        style: AppText.caption(context),
+                      ),
+                    ],
+                    if (cheat.provenance != null) ...[
+                      const SizedBox(height: 12),
+                      SourceCredit(provenance: cheat.provenance!),
                     ],
                     const SizedBox(height: 16),
                     _CopyButton(
@@ -361,6 +378,44 @@ class _ReportSheetState extends State<_ReportSheet> {
     'Something else',
   ];
   String? _reason;
+  bool _sending = false;
+
+  Future<void> _send() async {
+    final reason = _reason;
+    if (reason == null || _sending) return;
+
+    final app = AppScope.of(context);
+    final messenger = ScaffoldMessenger.of(context);
+    final navigator = Navigator.of(context);
+
+    if (!app.hasBackend) {
+      navigator.pop();
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Reports need a backend. This build has none configured.'),
+      ));
+      return;
+    }
+
+    setState(() => _sending = true);
+    try {
+      await app.reportCheat(cheatId: widget.cheat.id, reason: reason);
+      if (!mounted) return;
+      navigator.pop();
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Thanks – a moderator will look at this entry.'),
+      ));
+    } on BackendException catch (error) {
+      if (!mounted) return;
+      setState(() => _sending = false);
+      messenger.showSnackBar(SnackBar(content: Text(error.message)));
+    } catch (_) {
+      if (!mounted) return;
+      setState(() => _sending = false);
+      messenger.showSnackBar(const SnackBar(
+        content: Text('Could not reach the server. Try again when you are online.'),
+      ));
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -392,18 +447,55 @@ class _ReportSheetState extends State<_ReportSheet> {
             ),
             const SizedBox(height: 8),
             FilledButton(
-              onPressed: _reason == null
-                  ? null
-                  : () {
-                      final messenger = ScaffoldMessenger.of(context);
-                      Navigator.of(context).pop();
-                      messenger.showSnackBar(
-                        const SnackBar(content: Text('Thanks – report saved on this device for now.')),
-                      );
-                    },
-              child: const Text('Send report'),
+              onPressed: (_reason == null || _sending) ? null : _send,
+              child: _sending
+                  ? const SizedBox(
+                      height: 18,
+                      width: 18,
+                      child: CircularProgressIndicator(strokeWidth: 2),
+                    )
+                  : const Text('Send report'),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Shown when a cheat id is no longer in the loaded content pack.
+class _CheatMissing extends StatelessWidget {
+  const _CheatMissing();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: PageBackground(
+        child: SafeArea(
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(32),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('This cheat is no longer listed.',
+                      style: Theme.of(context).textTheme.titleMedium,
+                      textAlign: TextAlign.center),
+                  const SizedBox(height: 8),
+                  Text(
+                    'It was removed when the content was last updated.',
+                    style: Theme.of(context).textTheme.bodySmall,
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 20),
+                  TextButton(
+                    onPressed: () => Navigator.of(context).maybePop(),
+                    child: const Text('Back'),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );

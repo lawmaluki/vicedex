@@ -12,6 +12,7 @@ class PhosphorIconsRegular {
   PhosphorIconsRegular._();
   static const airplane = IconData(0xe002, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const boat = IconData(0xe786, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
+  static const bookOpen = IconData(0xe0e6, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const car = IconData(0xe112, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const cards = IconData(0xe0f8, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const caretLeft = IconData(0xe138, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
@@ -24,6 +25,8 @@ class PhosphorIconsRegular {
   static const gameController = IconData(0xe26e, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const globeHemisphereWest = IconData(0xe28c, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const heart = IconData(0xe2a8, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
+  static const info = IconData(0xe2ce, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
+  static const warningCircle = IconData(0xe4e2, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const house = IconData(0xe2c2, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const magnifyingGlass = IconData(0xe30c, fontFamily: 'PhosphorRegular', fontPackage: _pkg);
   static const mapTrifold = IconData(0xe31a, fontFamily: 'PhosphorRegular', fontPackage: _pkg);

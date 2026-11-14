@@ -24,17 +24,24 @@ class _CheatLibraryScreenState extends State<CheatLibraryScreen> {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
-    final list = app.cheats
+    final list = app.visibleCheats
         .where((c) => _category == CheatCategory.all || c.category == _category)
         .toList();
     final featured = list.isEmpty ? null : list.first;
+    // While no GTA VI codes are confirmed the library shows GTA V's real codes,
+    // so say which set is on screen rather than letting them look like VI codes.
+    final showingLegacy = app.cheats.isEmpty && app.legacyCheats.isNotEmpty;
+
+    if (app.status == LoadStatus.loading) {
+      return const Center(child: CircularProgressIndicator());
+    }
 
     return ListView(
       padding: const EdgeInsets.only(bottom: kNavClearance),
       children: [
         ScreenHeader(
           title: 'Cheat Library',
-          caption: 'Unofficial fan companion',
+          caption: showingLegacy ? 'GTA V codes · reference' : 'Unofficial fan companion',
           actions: [
             AppIconButton(
               icon: PhosphorIconsBold.plus,
@@ -46,6 +53,7 @@ class _CheatLibraryScreenState extends State<CheatLibraryScreen> {
           ],
         ),
         const SizedBox(height: 18),
+        for (final notice in app.noticesFor('cheats')) NoticeCard(notice: notice),
         SizedBox(
           height: 112,
           child: ListView.separated(

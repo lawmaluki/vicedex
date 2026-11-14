@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../data/mock_data.dart';
 import '../models/models.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
@@ -38,7 +37,7 @@ class _FinderScreenState extends State<FinderScreen> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final query = _controller.text;
-    final results = app.cheats
+    final results = app.visibleCheats
         .where((c) => c.matches(query))
         .where((c) => _status == null || c.status == _status)
         .toList();
@@ -83,7 +82,7 @@ class _FinderScreenState extends State<FinderScreen> {
               spacing: 8,
               runSpacing: 8,
               children: [
-                for (final s in MockData.suggestions)
+                for (final s in AppScope.of(context).suggestions)
                   ActionChip(
                     label: Text(s),
                     onPressed: () => _setQuery(s),

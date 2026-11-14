@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../data/mock_data.dart';
+import '../state/app_state.dart';
 import '../models/models.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common.dart';
@@ -21,7 +21,8 @@ class _VehiclesScreenState extends State<VehiclesScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final list = MockData.vehicles
+    final all = AppScope.of(context).vehicles;
+    final list = all
         .where((v) => _class == null || v.vehicleClass == _class)
         .where((v) => v.name.toLowerCase().contains(_query.trim().toLowerCase()))
         .toList();
@@ -163,7 +164,9 @@ class _VehicleSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final v = vehicle;
-    final rank = speedRankInClass(v, MockData.vehicles);
+    // Rank against every loaded vehicle, not the filtered list, so the figure
+    // does not change as the user types in the search box.
+    final rank = speedRankInClass(v, AppScope.of(context).vehicles);
     final tags = [
       if (v.addedIn != null) InfoTag(icon: PhosphorIconsRegular.tag, label: 'Added in ${v.addedIn}'),
       if (v.exclusiveTo != null)
@@ -228,6 +231,10 @@ class _VehicleSheet extends StatelessWidget {
             'TBD values are filled in once they are measured in the released game.',
             style: AppText.caption(context),
           ),
+          if (v.provenance != null) ...[
+            const SizedBox(height: 14),
+            SourceCredit(provenance: v.provenance!),
+          ],
         ],
       ),
     );

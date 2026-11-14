@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../data/content_pack.dart';
 import '../models/models.dart';
 import '../theme/app_theme.dart';
 import '../theme/phosphor.dart';
@@ -551,3 +552,83 @@ class ScreenHeader extends StatelessWidget {
 }
 
 const kDisclaimer = 'Independent fan-made companion. Not affiliated with or endorsed by Rockstar Games.';
+
+/// Renders a notice carried by the content pack, e.g. "no GTA VI cheat codes
+/// are confirmed yet". The text comes from the ingest pipeline so the wording
+/// can be corrected without shipping a new build.
+class NoticeCard extends StatelessWidget {
+  const NoticeCard({super.key, required this.notice});
+  final ContentNotice notice;
+
+  @override
+  Widget build(BuildContext context) {
+    final warning = notice.severity == 'warning';
+    final accent = warning ? AppColors.rumour : AppColors.unverified;
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(18, 0, 18, 12),
+      child: GlassCard(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(
+              warning ? PhosphorIconsRegular.warningCircle : PhosphorIconsRegular.info,
+              size: 18,
+              color: accent,
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(notice.title, style: AppText.cardTitle(context)),
+                  const SizedBox(height: 4),
+                  Text(
+                    notice.body,
+                    style: AppText.caption(context).copyWith(height: 1.5),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Source credit for one record.
+///
+/// The GTA Wiki is CC BY-SA, which requires attribution wherever its content
+/// is reused, so this is a licence obligation rather than a nicety. It also
+/// tells the user *why* an entry carries the status it does.
+class SourceCredit extends StatelessWidget {
+  const SourceCredit({super.key, required this.provenance});
+  final Provenance provenance;
+
+  @override
+  Widget build(BuildContext context) {
+    final parts = <String>[
+      if (provenance.note != null && provenance.note!.isNotEmpty)
+        provenance.note!
+      else if (provenance.sighting != null)
+        'Source: ${provenance.sighting}',
+      'via ${provenance.sourceName}'
+          '${provenance.licence.isEmpty ? '' : ' (${provenance.licence})'}',
+    ];
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Icon(PhosphorIconsRegular.bookOpen, size: 14, color: AppColors.muted),
+        const SizedBox(width: 6),
+        Expanded(
+          child: Text(
+            parts.join(' · '),
+            style: AppText.small(context).copyWith(color: AppColors.muted, height: 1.4),
+          ),
+        ),
+      ],
+    );
+  }
+}

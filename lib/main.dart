@@ -18,19 +18,33 @@ void main() {
 }
 
 class ViceDexApp extends StatefulWidget {
-  const ViceDexApp({super.key, this.useGoogleFonts = true});
+  const ViceDexApp({super.key, this.useGoogleFonts = true, this.state});
   final bool useGoogleFonts;
+
+  /// Lets a test supply state backed by a fixed content pack. Null in the real
+  /// app, which builds its own from the bundled pack.
+  final AppState? state;
 
   @override
   State<ViceDexApp> createState() => _ViceDexAppState();
 }
 
 class _ViceDexAppState extends State<ViceDexApp> {
-  final _state = AppState();
+  late final AppState _state = widget.state ?? AppState();
+  late final bool _ownsState = widget.state == null;
+
+  @override
+  void initState() {
+    super.initState();
+    // Loads the bundled pack and, when VICEDEX_PACK_URL is set, refreshes it.
+    // Screens render from AppState.status while this runs.
+    _state.load();
+  }
 
   @override
   void dispose() {
-    _state.dispose();
+    // A state passed in by a test belongs to the test.
+    if (_ownsState) _state.dispose();
     super.dispose();
   }
 

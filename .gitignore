@@ -46,3 +46,9 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Backend ingest: local wiki response cache and deployment output.
+# assets/content_pack.json IS committed: the app bundles it for offline use.
+backend/.wikicache/
+backend/packs/
+backend/**/__pycache__/

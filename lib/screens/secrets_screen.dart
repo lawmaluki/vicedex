@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../data/mock_data.dart';
+import '../state/app_state.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common.dart';
 import 'shell.dart';
@@ -66,7 +66,9 @@ class SecretsScreen extends StatelessWidget {
           child: Text('Easter eggs & secrets', style: AppText.heading(context)),
         ),
         const SizedBox(height: 10),
-        for (final s in MockData.secrets)
+        for (final notice in AppScope.of(context).noticesFor('secrets'))
+          NoticeCard(notice: notice),
+        for (final s in AppScope.of(context).secrets)
           Padding(
             padding: const EdgeInsets.fromLTRB(18, 0, 18, 10),
             child: GlassCard(

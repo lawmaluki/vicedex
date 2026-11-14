@@ -46,6 +46,29 @@ enum CheatCategory {
   final IconData icon;
 }
 
+/// Where a record came from. The GTA Wiki is CC BY-SA, so attribution has to
+/// travel with the data and be shown wherever the record is.
+class Provenance {
+  const Provenance({
+    required this.sourceName,
+    required this.source,
+    required this.licence,
+    this.note,
+    this.sighting,
+  });
+
+  final String sourceName;
+  final String source;
+  final String licence;
+
+  /// Plain-language reason for the record's status, e.g. "Seen in an official
+  /// trailer (Trailer 1: 0:46)."
+  final String? note;
+
+  /// The raw sighting the wiki recorded, e.g. "Trailer 2: 2:28-2:30".
+  final String? sighting;
+}
+
 class Cheat {
   const Cheat({
     required this.id,
@@ -59,6 +82,8 @@ class Cheat {
     this.lastTested,
     this.isPlaceholder = true,
     this.addedIn,
+    this.game = 'VI',
+    this.provenance,
   });
 
   final String id;
@@ -79,6 +104,14 @@ class Cheat {
   /// Game version the code first worked in, e.g. "Launch 1.0". Codes can
   /// change between patches, so this tells players whether it still applies.
   final String? addedIn;
+
+  /// Which game the code belongs to: `VI`, or `V` for the legacy reference set
+  /// shipped while no GTA VI codes are confirmed.
+  final String game;
+
+  final Provenance? provenance;
+
+  bool get isLegacy => game != 'VI';
 
   List<String> sequenceFor(GamePlatform p) => sequences[p] ?? const [];
 
@@ -152,6 +185,9 @@ class Vehicle {
     this.performance = const {},
     this.exclusiveTo,
     this.addedIn,
+    this.provenance,
+    this.returning = false,
+    this.wikiClass,
   });
 
   final String id;
@@ -168,6 +204,15 @@ class Vehicle {
 
   /// Game version it was added in, e.g. "Launch 1.0".
   final String? addedIn;
+
+  final Provenance? provenance;
+
+  /// True when the vehicle also appeared in an earlier GTA game.
+  final bool returning;
+
+  /// The finer-grained class the source used, e.g. "Sports & super cars".
+  /// Shown as a subtitle; [vehicleClass] is what the filters use.
+  final String? wikiClass;
 }
 
 /// Where [v] places by top speed among vehicles of its class that have a
@@ -191,6 +236,7 @@ class Secret {
     required this.area,
     required this.summary,
     required this.status,
+    this.provenance,
   });
 
   final String id;
@@ -198,4 +244,5 @@ class Secret {
   final String area;
   final String summary;
   final VerificationStatus status;
+  final Provenance? provenance;
 }

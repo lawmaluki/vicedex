@@ -1,0 +1,6868 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14T12:36:36Z",
+  "sources": [
+    {
+      "name": "GTA Wiki",
+      "url": "https://gta.fandom.com/",
+      "licence": "CC BY-SA 3.0",
+      "pages": [
+        "Cheats in GTA VI",
+        "Cheats in GTA V",
+        "Vehicles in GTA VI/table",
+        "Secrets and Easter Eggs in GTA VI"
+      ]
+    }
+  ],
+  "counts": {
+    "cheatsVI": 0,
+    "cheatsLegacy": 43,
+    "vehicles": 250,
+    "secrets": 0
+  },
+  "notices": [
+    {
+      "id": "no-vi-cheats",
+      "scope": "cheats",
+      "severity": "info",
+      "title": "No GTA VI cheat codes are confirmed yet",
+      "body": "Rockstar has not revealed whether GTA VI has cheat codes, and none have been tested in the released game. Any code circulating before launch is unverified. The GTA V codes below are shown as a reference for what the format usually looks like.",
+      "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_VI"
+    },
+    {
+      "id": "no-vi-secrets",
+      "scope": "secrets",
+      "severity": "info",
+      "title": "Secrets are catalogued after launch",
+      "body": "The GTA Wiki has no secrets-and-easter-eggs page for GTA VI yet. This list fills in as locations are found and documented.",
+      "source": "https://gta.fandom.com/wiki/Secrets_and_Easter_Eggs_in_GTA_VI"
+    }
+  ],
+  "cheats": [
+    {
+      "id": "v-spawn-trashmaster",
+      "title": "Spawn Trashmaster",
+      "category": "vehicles",
+      "summary": "Spawn Trashmaster.",
+      "keywords": [
+        "spawn",
+        "trashmaster"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "RB",
+          "B",
+          "RB",
+          "←",
+          "←",
+          "RB",
+          "LB",
+          "B",
+          "→"
+        ],
+        "ps5": [
+          "○",
+          "R1",
+          "○",
+          "R1",
+          "←",
+          "←",
+          "R1",
+          "L1",
+          "○",
+          "→"
+        ],
+        "pc": [
+          "TRASHED"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-stretch",
+      "title": "Spawn Stretch",
+      "category": "vehicles",
+      "summary": "Spawn Stretch.",
+      "keywords": [
+        "spawn",
+        "stretch"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RT",
+          "→",
+          "LT",
+          "←",
+          "←",
+          "RB",
+          "LB",
+          "B",
+          "→"
+        ],
+        "ps5": [
+          "R2",
+          "→",
+          "L2",
+          "←",
+          "←",
+          "R1",
+          "L1",
+          "○",
+          "→"
+        ],
+        "pc": [
+          "VINEWOOD"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-mallard",
+      "title": "Spawn Mallard",
+      "category": "vehicles",
+      "summary": "Spawn Mallard.",
+      "keywords": [
+        "spawn",
+        "mallard"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "→",
+          "LB",
+          "LT",
+          "←",
+          "RB",
+          "LB",
+          "LB",
+          "←",
+          "←",
+          "A",
+          "Y"
+        ],
+        "ps5": [
+          "○",
+          "→",
+          "L1",
+          "L2",
+          "←",
+          "R1",
+          "L1",
+          "L1",
+          "←",
+          "←",
+          "✕",
+          "△"
+        ],
+        "pc": [
+          "BARNSTORM"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-sanchez",
+      "title": "Spawn Sanchez",
+      "category": "vehicles",
+      "summary": "Spawn Sanchez.",
+      "keywords": [
+        "spawn",
+        "sanchez"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "A",
+          "LB",
+          "B",
+          "B",
+          "LB",
+          "B",
+          "RB",
+          "RT",
+          "LT",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "○",
+          "✕",
+          "L1",
+          "○",
+          "○",
+          "L1",
+          "○",
+          "R1",
+          "R2",
+          "L2",
+          "L1",
+          "L1"
+        ],
+        "pc": [
+          "OFFROAD"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-comet",
+      "title": "Spawn Comet",
+      "category": "vehicles",
+      "summary": "Spawn Comet.",
+      "keywords": [
+        "spawn",
+        "comet"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RB",
+          "B",
+          "RT",
+          "→",
+          "LB",
+          "LT",
+          "A",
+          "A",
+          "X",
+          "RB"
+        ],
+        "ps5": [
+          "R1",
+          "○",
+          "R2",
+          "→",
+          "L1",
+          "L2",
+          "✕",
+          "✕",
+          "□",
+          "R1"
+        ],
+        "pc": [
+          "COMET"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-buzzard-attack-chopper",
+      "title": "Spawn Buzzard Attack Chopper",
+      "category": "vehicles",
+      "summary": "Spawn Buzzard Attack Chopper.",
+      "keywords": [
+        "spawn",
+        "buzzard",
+        "attack",
+        "chopper"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "B",
+          "LB",
+          "B",
+          "B",
+          "B",
+          "LB",
+          "LT",
+          "RB",
+          "Y",
+          "B",
+          "Y"
+        ],
+        "ps5": [
+          "○",
+          "○",
+          "L1",
+          "○",
+          "○",
+          "○",
+          "L1",
+          "L2",
+          "R1",
+          "△",
+          "○",
+          "△"
+        ],
+        "pc": [
+          "BUZZOFF"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-caddy",
+      "title": "Spawn Caddy",
+      "category": "vehicles",
+      "summary": "Spawn Caddy.",
+      "keywords": [
+        "spawn",
+        "caddy"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "LB",
+          "←",
+          "RB",
+          "LT",
+          "A",
+          "RB",
+          "LB",
+          "B",
+          "A"
+        ],
+        "ps5": [
+          "○",
+          "L1",
+          "←",
+          "R1",
+          "L2",
+          "✕",
+          "R1",
+          "L1",
+          "○",
+          "✕"
+        ],
+        "pc": [
+          "HOLEIN1"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-duster",
+      "title": "Spawn Duster",
+      "category": "vehicles",
+      "summary": "Spawn Duster.",
+      "keywords": [
+        "spawn",
+        "duster"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "→",
+          "←",
+          "RB",
+          "RB",
+          "RB",
+          "←",
+          "Y",
+          "Y",
+          "A",
+          "B",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "→",
+          "←",
+          "R1",
+          "R1",
+          "R1",
+          "←",
+          "△",
+          "△",
+          "✕",
+          "○",
+          "L1",
+          "L1"
+        ],
+        "pc": [
+          "FLYSPRAY"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-rapid-gt",
+      "title": "Spawn Rapid GT",
+      "category": "vehicles",
+      "summary": "Spawn Rapid GT.",
+      "keywords": [
+        "spawn",
+        "rapid"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RT",
+          "LB",
+          "B",
+          "→",
+          "LB",
+          "RB",
+          "→",
+          "←",
+          "B",
+          "RT"
+        ],
+        "ps5": [
+          "R2",
+          "L1",
+          "○",
+          "→",
+          "L1",
+          "R1",
+          "→",
+          "←",
+          "○",
+          "R2"
+        ],
+        "pc": [
+          "RAPIDGT"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-pcj-600",
+      "title": "Spawn PCJ-600",
+      "category": "vehicles",
+      "summary": "Spawn PCJ-600.",
+      "keywords": [
+        "spawn",
+        "pcj",
+        "600"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RB",
+          "→",
+          "←",
+          "→",
+          "RT",
+          "←",
+          "→",
+          "X",
+          "→",
+          "LT",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "R1",
+          "→",
+          "←",
+          "→",
+          "R2",
+          "←",
+          "→",
+          "□",
+          "→",
+          "L2",
+          "L1",
+          "L1"
+        ],
+        "pc": [
+          "ROCKET"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-give-parachute",
+      "title": "Give Parachute",
+      "category": "player",
+      "summary": "Give Parachute.",
+      "keywords": [
+        "give",
+        "parachute"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "←",
+          "→",
+          "LB",
+          "LT",
+          "RB",
+          "RT",
+          "RT",
+          "←",
+          "←",
+          "→",
+          "LB"
+        ],
+        "ps5": [
+          "←",
+          "→",
+          "L1",
+          "L2",
+          "R1",
+          "R2",
+          "R2",
+          "←",
+          "←",
+          "→",
+          "L1"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-raise-wanted-level-1-star-per-use",
+      "title": "Raise Wanted Level (+1 star per use)",
+      "category": "world",
+      "summary": "Raise Wanted Level (+1 star per use).",
+      "keywords": [
+        "raise",
+        "wanted",
+        "level",
+        "star",
+        "per",
+        "use"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RB",
+          "RB",
+          "B",
+          "RT",
+          "←",
+          "→",
+          "←",
+          "→",
+          "←",
+          "→"
+        ],
+        "ps5": [
+          "R1",
+          "R1",
+          "○",
+          "R2",
+          "←",
+          "→",
+          "←",
+          "→",
+          "←",
+          "→"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-lower-wanted-level-1-star-per-use",
+      "title": "Lower Wanted Level (-1 star per use)",
+      "category": "world",
+      "summary": "Lower Wanted Level (-1 star per use).",
+      "keywords": [
+        "lower",
+        "wanted",
+        "level",
+        "star",
+        "per",
+        "use"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RB",
+          "RB",
+          "B",
+          "RT",
+          "→",
+          "←",
+          "→",
+          "←",
+          "→",
+          "←"
+        ],
+        "ps5": [
+          "R1",
+          "R1",
+          "○",
+          "R2",
+          "→",
+          "←",
+          "→",
+          "←",
+          "→",
+          "←"
+        ],
+        "pc": [
+          "LAWYERUP"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-explosive-melee-attacks",
+      "title": "Explosive Melee Attacks",
+      "category": "weapons",
+      "summary": "Explosive Melee Attacks.",
+      "keywords": [
+        "explosive",
+        "melee",
+        "attacks"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "→",
+          "←",
+          "A",
+          "Y",
+          "RB",
+          "B",
+          "B",
+          "B",
+          "LT"
+        ],
+        "ps5": [
+          "→",
+          "←",
+          "✕",
+          "△",
+          "R1",
+          "○",
+          "○",
+          "○",
+          "L2"
+        ],
+        "pc": [
+          "HOTHANDS"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-drunk-mode",
+      "title": "Drunk Mode",
+      "category": "player",
+      "summary": "Drunk Mode.",
+      "keywords": [
+        "drunk",
+        "mode"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "Y",
+          "→",
+          "→",
+          "←",
+          "→",
+          "X",
+          "B",
+          "←"
+        ],
+        "ps5": [
+          "△",
+          "→",
+          "→",
+          "←",
+          "→",
+          "□",
+          "○",
+          "←"
+        ],
+        "pc": [
+          "LIQUOR"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-fast-running",
+      "title": "Fast Running",
+      "category": "player",
+      "summary": "Fast Running.",
+      "keywords": [
+        "fast",
+        "running"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "Y",
+          "←",
+          "→",
+          "→",
+          "LT",
+          "LB",
+          "X"
+        ],
+        "ps5": [
+          "△",
+          "←",
+          "→",
+          "→",
+          "L2",
+          "L1",
+          "□"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-change-weather",
+      "title": "Change weather",
+      "category": "world",
+      "summary": "Change weather.",
+      "keywords": [
+        "change",
+        "weather"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "RT",
+          "A",
+          "LB",
+          "LB",
+          "LT",
+          "LT",
+          "LT",
+          "X"
+        ],
+        "ps5": [
+          "R2",
+          "✕",
+          "L1",
+          "L1",
+          "L2",
+          "L2",
+          "L2",
+          "□"
+        ],
+        "pc": [
+          "MAKEITRAIN"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-slidey-cars",
+      "title": "Slidey Cars",
+      "category": "vehicles",
+      "summary": "Slidey Cars.",
+      "keywords": [
+        "slidey",
+        "cars"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "Y",
+          "RB",
+          "RB",
+          "←",
+          "RB",
+          "LB",
+          "RT",
+          "LB"
+        ],
+        "ps5": [
+          "△",
+          "R1",
+          "R1",
+          "←",
+          "R1",
+          "L1",
+          "R2",
+          "L1"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-slow-motion-can-be-entered-up-to-4-times-each-slowing-even-more-fourth-time-disables",
+      "title": "Slow Motion (Can be entered up to 4 times, each slowing even more, fourth time disables)",
+      "category": "player",
+      "summary": "Slow Motion (Can be entered up to 4 times, each slowing even more, fourth time disables).",
+      "keywords": [
+        "slow",
+        "motion",
+        "can",
+        "entered",
+        "times",
+        "each",
+        "slowing",
+        "even",
+        "more",
+        "fourth",
+        "time",
+        "disables"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "Y",
+          "←",
+          "→",
+          "→",
+          "X",
+          "RT",
+          "RB"
+        ],
+        "ps5": [
+          "△",
+          "←",
+          "→",
+          "→",
+          "□",
+          "R2",
+          "R1"
+        ],
+        "pc": [
+          "SLOWMO"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-slow-motion-aiming-can-be-entered-up-to-4-times-each-slowing-even-more-fourth-time-disables",
+      "title": "Slow Motion Aiming (Can be entered up to 4 times, each slowing even more, fourth time disables)",
+      "category": "player",
+      "summary": "Slow Motion Aiming (Can be entered up to 4 times, each slowing even more, fourth time disables).",
+      "keywords": [
+        "slow",
+        "motion",
+        "aiming",
+        "can",
+        "entered",
+        "times",
+        "each",
+        "slowing",
+        "even",
+        "more",
+        "fourth",
+        "time",
+        "disables"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "X",
+          "LT",
+          "RB",
+          "Y",
+          "←",
+          "X",
+          "LT",
+          "→",
+          "A"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-recharge-special-ability",
+      "title": "Recharge Special Ability",
+      "category": "player",
+      "summary": "Recharge Special Ability.",
+      "keywords": [
+        "recharge",
+        "special",
+        "ability"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "A",
+          "A",
+          "X",
+          "RB",
+          "LB",
+          "A",
+          "→",
+          "←",
+          "A"
+        ],
+        "ps5": [
+          "✕",
+          "✕",
+          "□",
+          "R1",
+          "L1",
+          "✕",
+          "→",
+          "←",
+          "✕"
+        ],
+        "pc": [
+          "POWERUP"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-skyfall-character-is-warped-up-to-a-great-height-and-falls-to-the-ground",
+      "title": "Skyfall (Character is warped up to a great height and falls to the ground)",
+      "category": "player",
+      "summary": "Skyfall (Character is warped up to a great height and falls to the ground).",
+      "keywords": [
+        "skyfall",
+        "character",
+        "warped",
+        "great",
+        "height",
+        "and",
+        "falls",
+        "the",
+        "ground"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "LB",
+          "LT",
+          "RB",
+          "RT",
+          "←",
+          "→",
+          "←",
+          "→",
+          "LB",
+          "LT",
+          "RB",
+          "RT",
+          "←",
+          "→",
+          "←",
+          "→"
+        ],
+        "ps5": [
+          "L1",
+          "L2",
+          "R1",
+          "R2",
+          "←",
+          "→",
+          "←",
+          "→",
+          "L1",
+          "L2",
+          "R1",
+          "R2",
+          "←",
+          "→",
+          "←",
+          "→"
+        ],
+        "pc": [
+          "SKYFALL"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-invincibility-lasts-only-5-minutes",
+      "title": "Invincibility (Lasts only 5 minutes)",
+      "category": "player",
+      "summary": "Invincibility (Lasts only 5 minutes).",
+      "keywords": [
+        "invincibility",
+        "lasts",
+        "only",
+        "minutes"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "→",
+          "A",
+          "→",
+          "←",
+          "→",
+          "RB",
+          "→",
+          "←",
+          "A",
+          "Y"
+        ],
+        "ps5": [
+          "→",
+          "✕",
+          "→",
+          "←",
+          "→",
+          "R1",
+          "→",
+          "←",
+          "✕",
+          "△"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-max-health-armor",
+      "title": "Max Health & Armor",
+      "category": "player",
+      "summary": "Max Health & Armor.",
+      "keywords": [
+        "max",
+        "health",
+        "armor"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "B",
+          "LB",
+          "Y",
+          "RT",
+          "A",
+          "X",
+          "B",
+          "→",
+          "X",
+          "LB",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "○",
+          "L1",
+          "△",
+          "R2",
+          "✕",
+          "□",
+          "○",
+          "→",
+          "□",
+          "L1",
+          "L1",
+          "L1"
+        ],
+        "pc": [
+          "TURTLE"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-weapons-ammo",
+      "title": "Weapons & Ammo",
+      "category": "weapons",
+      "summary": "Weapons & Ammo.",
+      "keywords": [
+        "weapons",
+        "ammo"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "Y",
+          "RT",
+          "←",
+          "LB",
+          "A",
+          "→",
+          "Y",
+          "↓",
+          "X",
+          "LB",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "△",
+          "R2",
+          "←",
+          "L1",
+          "✕",
+          "→",
+          "△",
+          "↓",
+          "□",
+          "L1",
+          "L1",
+          "L1"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-low-gravity",
+      "title": "Low Gravity",
+      "category": "world",
+      "summary": "Low Gravity.",
+      "keywords": [
+        "low",
+        "gravity"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "←",
+          "←",
+          "LB",
+          "RB",
+          "LB",
+          "→",
+          "←",
+          "LB",
+          "←"
+        ],
+        "ps5": [
+          "←",
+          "←",
+          "L1",
+          "R1",
+          "L1",
+          "→",
+          "←",
+          "L1",
+          "←"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-super-jump",
+      "title": "Super Jump",
+      "category": "player",
+      "summary": "Super Jump.",
+      "keywords": [
+        "super",
+        "jump"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "←",
+          "←",
+          "Y",
+          "Y",
+          "→",
+          "→",
+          "←",
+          "→",
+          "X",
+          "RB",
+          "RT"
+        ],
+        "ps5": [
+          "←",
+          "←",
+          "△",
+          "△",
+          "→",
+          "→",
+          "←",
+          "→",
+          "□",
+          "R1",
+          "R2"
+        ],
+        "pc": [
+          "HOPTOIT"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-flaming-bullets",
+      "title": "Flaming Bullets",
+      "category": "weapons",
+      "summary": "Flaming Bullets.",
+      "keywords": [
+        "flaming",
+        "bullets"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "LB",
+          "RB",
+          "X",
+          "RB",
+          "←",
+          "RT",
+          "RB",
+          "←",
+          "X",
+          "→",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "L1",
+          "R1",
+          "□",
+          "R1",
+          "←",
+          "R2",
+          "R1",
+          "←",
+          "□",
+          "→",
+          "L1",
+          "L1"
+        ],
+        "pc": [
+          "INCENDIARY"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-explosive-bullets",
+      "title": "Explosive Bullets",
+      "category": "weapons",
+      "summary": "Explosive Bullets.",
+      "keywords": [
+        "explosive",
+        "bullets"
+      ],
+      "status": "verified",
+      "sequences": {
+        "xbox": [
+          "→",
+          "X",
+          "A",
+          "←",
+          "RB",
+          "RT",
+          "←",
+          "→",
+          "→",
+          "LB",
+          "LB",
+          "LB"
+        ],
+        "ps5": [
+          "→",
+          "□",
+          "✕",
+          "←",
+          "R1",
+          "R2",
+          "←",
+          "→",
+          "→",
+          "L1",
+          "L1",
+          "L1"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-bmx",
+      "title": "Spawn BMX",
+      "category": "vehicles",
+      "summary": "Spawn BMX.",
+      "keywords": [
+        "spawn",
+        "bmx"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "BANDIT"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-dodo",
+      "title": "Spawn Dodo",
+      "category": "vehicles",
+      "summary": "Spawn Dodo.",
+      "keywords": [
+        "spawn",
+        "dodo"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "EXTINCT"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-duke-o-death",
+      "title": "Spawn Duke O'Death",
+      "category": "vehicles",
+      "summary": "Spawn Duke O'Death.",
+      "keywords": [
+        "spawn",
+        "duke",
+        "death"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "DEATHCAR"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-spawn-kraken",
+      "title": "Spawn Kraken",
+      "category": "vehicles",
+      "summary": "Spawn Kraken.",
+      "keywords": [
+        "spawn",
+        "kraken"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "BUBBLES"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-weapons-pump-shotgun-rpg-grenades-smg-assault-rifle",
+      "title": "Weapons (Pump Shotgun, RPG, Grenades, SMG, Assault Rifle)",
+      "category": "weapons",
+      "summary": "Weapons (Pump Shotgun, RPG, Grenades, SMG, Assault Rifle).",
+      "keywords": [
+        "weapons",
+        "pump",
+        "shotgun",
+        "rpg",
+        "grenades",
+        "smg",
+        "assault",
+        "rifle"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "TOOLUP"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-moon-gravity",
+      "title": "Moon Gravity",
+      "category": "world",
+      "summary": "Moon Gravity.",
+      "keywords": [
+        "moon",
+        "gravity"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "FLOATER"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-fast-run",
+      "title": "Fast Run",
+      "category": "player",
+      "summary": "Fast Run.",
+      "keywords": [
+        "fast",
+        "run"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "CATCHME"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-fast-swim",
+      "title": "Fast Swim",
+      "category": "player",
+      "summary": "Fast Swim.",
+      "keywords": [
+        "fast",
+        "swim"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "GOTGILLS"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-explosive-ammo-rounds",
+      "title": "Explosive Ammo Rounds",
+      "category": "weapons",
+      "summary": "Explosive Ammo Rounds.",
+      "keywords": [
+        "explosive",
+        "ammo",
+        "rounds"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "HIGHEX"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-raise-wanted-level-1-star-per-cheat-use",
+      "title": "Raise Wanted Level (+1 star per cheat use)",
+      "category": "world",
+      "summary": "Raise Wanted Level (+1 star per cheat use).",
+      "keywords": [
+        "raise",
+        "wanted",
+        "level",
+        "star",
+        "per",
+        "cheat",
+        "use"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "FUGITIVE"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-invincibility-lasts-for-5-minutes",
+      "title": "Invincibility (lasts for 5 minutes)",
+      "category": "player",
+      "summary": "Invincibility (lasts for 5 minutes).",
+      "keywords": [
+        "invincibility",
+        "lasts",
+        "for",
+        "minutes"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "PAINKILLER"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-slow-motion-aim-can-be-entered-up-to-4-times-each-slowing-even-more-fourth-time-disables",
+      "title": "Slow Motion Aim (Can be entered up to 4 times, each slowing even more; fourth time disables)",
+      "category": "player",
+      "summary": "Slow Motion Aim (Can be entered up to 4 times, each slowing even more; fourth time disables).",
+      "keywords": [
+        "slow",
+        "motion",
+        "aim",
+        "can",
+        "entered",
+        "times",
+        "each",
+        "slowing",
+        "even",
+        "more",
+        "fourth",
+        "time",
+        "disables"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "DEADEYE"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-parachute",
+      "title": "Parachute",
+      "category": "player",
+      "summary": "Parachute.",
+      "keywords": [
+        "parachute"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "SKYDIVE"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "v-slippery-car-tires",
+      "title": "Slippery Car Tires",
+      "category": "vehicles",
+      "summary": "Slippery Car Tires.",
+      "keywords": [
+        "slippery",
+        "car",
+        "tires"
+      ],
+      "status": "verified",
+      "sequences": {
+        "pc": [
+          "SNOWDAY"
+        ]
+      },
+      "confirmations": 0,
+      "isPlaceholder": false,
+      "game": "V",
+      "addedIn": null,
+      "provenance": {
+        "source": "https://gta.fandom.com/wiki/Cheats_in_GTA_V",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "veh-mamba-gt",
+      "name": "Mamba GT",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sentinel-classic-cabriolet",
+      "name": "Sentinel Classic cabriolet",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Website animation: Jason Duval).",
+        "sighting": "Website animation: Jason Duval",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-pegassi-sports-car",
+      "name": "Pegassi sports car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Pegassi"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:32).",
+        "sighting": "Trailer 1: 0:32",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buick-reatta-inspired-convertible",
+      "name": "Buick Reatta-inspired convertible",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:28-2:30).",
+        "sighting": "Trailer 2: 2:28-2:30",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-convertible",
+      "name": "Convertible",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 1:52).",
+        "sighting": "Trailer 2: 1:52",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sports-car",
+      "name": "Sports car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports & super cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:46).",
+        "sighting": "Trailer 1: 0:46",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-pmp-700",
+      "name": "PMP 700",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28, 0:30).",
+        "sighting": "Trailer 1: 0:28, 0:30",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-impaler-lx-donked-out-car",
+      "name": "Impaler LX donked-out car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 09).",
+        "sighting": "Official Screenshot: Vice City 09",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tulip-m-100-donked-out-car",
+      "name": "Tulip M-100 donked-out car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28).",
+        "sighting": "Trailer 1: 0:28",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-benefactor-saloon",
+      "name": "Benefactor saloon",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Benefactor"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2:).",
+        "sighting": "Trailer 2:",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-declasse-sedan",
+      "name": "Declasse sedan",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Declasse"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:46).",
+        "sighting": "Trailer 1: 0:46",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-obey-saloon",
+      "name": "Obey saloon",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Obey"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28).",
+        "sighting": "Trailer 1: 0:28",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-donked-out-car",
+      "name": "Vapid donked-out car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28).",
+        "sighting": "Trailer 1: 0:28",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-sedan",
+      "name": "Vapid sedan",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:46).",
+        "sighting": "Trailer 1: 0:46",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-taxi",
+      "name": "Vapid taxi",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:14).",
+        "sighting": "Trailer 1: 0:14",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-willard-sedan",
+      "name": "Willard sedan",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Willard"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:33 & Official Screenshot: Vice City 09).",
+        "sighting": "Trailer 2: 2:33 & Official Screenshot: Vice City 09",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buick-skylark-inspired-car",
+      "name": "Buick Skylark-inspired car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:50).",
+        "sighting": "Trailer 1: 0:50",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-1959-cadillac-inspired-car",
+      "name": "1959 Cadillac-inspired car",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks & Trailer 2: 0:20",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-chrysler-sebring-inspired-sedan",
+      "name": "Chrysler Sebring-inspired sedan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-1955-ford-inspired-car",
+      "name": "1955 Ford-inspired car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:30).",
+        "sighting": "Trailer 1: 0:30",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-honda-accord-inspired-sedan",
+      "name": "Honda Accord-inspired sedan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-14 13-42-00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mercedes-benz-w211-inspired-saloon",
+      "name": "Mercedes-Benz W211-inspired saloon",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Raul Bautista 02).",
+        "sighting": "Official Screenshot: Raul Bautista 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rolls-royce-inspired-cabriolet",
+      "name": "Rolls-Royce-inspired cabriolet",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans & coupes",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Website animation: Jason → Lucia & Trailer 2: 2:05).",
+        "sighting": "Website animation: Jason → Lucia & Trailer 2: 2:05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-creado",
+      "name": "Creado",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks, Trailer 1 Artwork, Trailer 2, GTA VI Website",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ford-mustang-inspired-car",
+      "name": "Ford Mustang-inspired car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28; dark green car behind Stanier).",
+        "sighting": "Trailer 1: 0:28; dark green car behind Stanier",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mercury-cougar-inspired-car",
+      "name": "Mercury Cougar-inspired car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:57).",
+        "sighting": "Trailer 1: 0:57",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-declasse-compact-car",
+      "name": "Declasse compact car",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Compact cars",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Declasse"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks, Trailer 1 & Artwork: Jason and Lucia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-suv",
+      "name": "Vapid SUV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:03).",
+        "sighting": "Trailer 1: 1:03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-willard-station-wagon",
+      "name": "Willard station wagon",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Willard"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-audi-q7-inspired-suv",
+      "name": "Audi Q7-inspired SUV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:10).",
+        "sighting": "Trailer 1: 1:10",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-chrysler-lebaron-town-country-inspired-station-wagon",
+      "name": "Chrysler LeBaron Town & Country-inspired station wagon",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dodge-durango-inspired-suv",
+      "name": "Dodge Durango-inspired SUV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 0:36-0:38).",
+        "sighting": "Trailer 2: 0:36-0:38",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-toyota-rav4-inspired-suv",
+      "name": "Toyota RAV4-inspired SUV",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs & station wagons",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks & Website screenshot: Vice City 08",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ganado",
+      "name": "Ganado",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bison",
+      "name": "Bison",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-riata-classic",
+      "name": "Riata Classic",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bravado-pickup-truck",
+      "name": "Bravado pickup truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Bravado"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:52, 1:07, 1:08, 1:16).",
+        "sighting": "Trailer 1: 0:52, 1:07, 1:08, 1:16",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bravado-dually-pickup-truck",
+      "name": "Bravado dually pickup truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Bravado"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:50).",
+        "sighting": "Trailer 1: 0:50",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bravado-monster-truck",
+      "name": "Bravado monster truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Bravado"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Port Gellhorn 04).",
+        "sighting": "Official Screenshot: Port Gellhorn 04",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-canis-pickup-truck",
+      "name": "Canis pickup truck",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Canis"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks & Official Screenshot: Port Gellhorn 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dodge-dakota-inspired-pickup-truck",
+      "name": "Dodge Dakota-inspired pickup truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:06).",
+        "sighting": "Trailer 1: 1:06",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ford-f-series-inspired-flatbed-truck",
+      "name": "Ford F-Series-inspired flatbed truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:11).",
+        "sighting": "Trailer 1: 1:11",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ford-ranger-inspired-pickup-truck",
+      "name": "Ford Ranger-inspired pickup truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:56, Trailer 2: 0:35, Ambrosia Postcard).",
+        "sighting": "Trailer 1: 0:56, Trailer 2: 0:35, Ambrosia Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ford-super-duty-inspired-monster-truck",
+      "name": "Ford Super Duty-inspired monster truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1 :0:56, Artwork: Ambrosia).",
+        "sighting": "Trailer 1 :0:56, Artwork: Ambrosia",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-swamp-buggy",
+      "name": "Swamp buggy",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Pickups & off-road",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:55).",
+        "sighting": "Trailer 1: 0:55",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-alvino-v1",
+      "name": "Alvino V1",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Jason Duval 01).",
+        "sighting": "Official Screenshot: Jason Duval 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-carbon-rs-stock-motorcycle",
+      "name": "Carbon RS stock motorcycle",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28).",
+        "sighting": "Trailer 1: 0:28",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sovereign-stock-motorcycle",
+      "name": "Sovereign stock motorcycle",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:28).",
+        "sighting": "Trailer 1: 0:28",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sports-bike",
+      "name": "Sports bike",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 09).",
+        "sighting": "Official Screenshot: Vice City 09",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-lombike",
+      "name": "LomBike",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Bicycles & mobility devices",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-20 08-34-27, Official Screenshot: Vice City 03 & 2025 B. Chue reel",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mobility-scooter",
+      "name": "Mobility scooter",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Bicycles & mobility devices",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 02).",
+        "sighting": "Official Screenshot: Leonida Keys 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-6x6-conversion-van",
+      "name": "6x6 conversion van",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Recreational",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-05-03 11-20-11",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-class-a-motorhome",
+      "name": "Class A motorhome",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Recreational",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshots: Raul Bautista 03, Vice City 08 & Leonida Keys Postcard).",
+        "sighting": "Official Screenshots: Raul Bautista 03, Vice City 08 & Leonida Keys Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bison-police-truck",
+      "name": "Bison police truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 03).",
+        "sighting": "Official Screenshot: Vice City 03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-verus-lifeguard-atv",
+      "name": "Verus lifeguard ATV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 05).",
+        "sighting": "Official Screenshot: Vice City 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-ghost-police-car",
+      "name": "Vapid ghost police car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 0:45).",
+        "sighting": "Trailer 2: 0:45",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-police-car",
+      "name": "Vapid police car",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:00).",
+        "sighting": "Trailer 1: 1:00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-police-suv",
+      "name": "Vapid police SUV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:00).",
+        "sighting": "Trailer 1: 1:00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-unmarked-suv",
+      "name": "Vapid unmarked SUV",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Mount Kalaga National Park 04).",
+        "sighting": "Official Screenshot: Mount Kalaga National Park 04",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-contender-39st-inspired-police-boat",
+      "name": "Contender 39ST-inspired police boat",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Artwork: Jason and Lucia 02).",
+        "sighting": "Artwork: Jason and Lucia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-eurocopter-ec135-inspired-police-helicopter",
+      "name": "Eurocopter EC135-inspired police helicopter",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Artwork: Jason and Lucia 02).",
+        "sighting": "Artwork: Jason and Lucia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ford-explorer-sport-trac-inspired-lifeguard-truck",
+      "name": "Ford Explorer Sport Trac-inspired lifeguard truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:22).",
+        "sighting": "Trailer 1: 0:22",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-panther-inspired-poach-airboat",
+      "name": "Panther-inspired POACH airboat",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 04).",
+        "sighting": "Official Screenshot: Grassrivers 04",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rb-s-inspired-boat",
+      "name": "RB-S-inspired boat",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 01).",
+        "sighting": "Official Screenshot: Leonida Keys 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rb-s-ii-inspired-coast-guard-boat",
+      "name": "RB-S II-inspired coast guard boat",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency, rescue & government",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-brute-excavator",
+      "name": "Brute excavator",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Industrial & construction",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Brute"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-burrito-shuttle-bus",
+      "name": "Burrito shuttle bus",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:02).",
+        "sighting": "Trailer 1: 0:02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bravado-minivan",
+      "name": "Bravado minivan",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Bravado"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:07).",
+        "sighting": "Trailer 1: 1:07",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bravado-minivan-taxi",
+      "name": "Bravado minivan taxi",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Bravado"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:07).",
+        "sighting": "Trailer 1: 1:07",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-cargo-van",
+      "name": "Vapid cargo van",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:33).",
+        "sighting": "Trailer 2: 2:33",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vapid-passenger-van",
+      "name": "Vapid passenger van",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": "Vapid"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 03).",
+        "sighting": "Official Screenshot: Vice City 03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sera-minivan",
+      "name": "SERA minivan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-isuzu-elf-inspired-truck",
+      "name": "Isuzu Elf-inspired truck",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:02, 0:31, 1:03 (flatbed)).",
+        "sighting": "Trailer 1: 0:02, 0:31, 1:03 (flatbed)",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mercedes-benz-sprinter-inspired-van",
+      "name": "Mercedes-Benz Sprinter-inspired van",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 02).",
+        "sighting": "Official Screenshot: Leonida Keys 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-new-flyer-xcelsior-inspired-bus",
+      "name": "New Flyer Xcelsior-inspired bus",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:02).",
+        "sighting": "Trailer 1: 0:02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ram-promaster-inspired-van",
+      "name": "Ram ProMaster-inspired van",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:31).",
+        "sighting": "Trailer 1: 0:31",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tractor-unit",
+      "name": "Tractor unit",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Trucks & vans",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Mount Kalaga National Park 04).",
+        "sighting": "Official Screenshot: Mount Kalaga National Park 04",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-airboat-09",
+      "name": "Airboat 09",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 01 & 03).",
+        "sighting": "Official Screenshot: Grassrivers 01 & 03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-btn-delmar",
+      "name": "BTN Delmar",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:23).",
+        "sighting": "Trailer 1: 0:23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-s23",
+      "name": "S23",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 1:21, Official Screenshot: Leonida Keys 05).",
+        "sighting": "Trailer 2: 1:21, Official Screenshot: Leonida Keys 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-seashark-second-generation",
+      "name": "Seashark (second generation)",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:20).",
+        "sighting": "Trailer 2: 2:20",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-crest-kayak",
+      "name": "Crest kayak",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Mount Kalaga National Park 06).",
+        "sighting": "Official Screenshot: Mount Kalaga National Park 06",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-lure-predator-boat",
+      "name": "Lure Predator boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 05).",
+        "sighting": "Official Screenshot: Leonida Keys 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-azimut-atlantis-45-inspired-yacht",
+      "name": "Azimut Atlantis 45-inspired yacht",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:20).",
+        "sighting": "Trailer 2: 2:20",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-azimut-85-inspired-yacht",
+      "name": "Azimut 85-inspired yacht",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:30, Trailer 2: 1:21).",
+        "sighting": "Trailer 1: 0:30, Trailer 2: 1:21",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sea-ray-350-sundancer-inspired-boat",
+      "name": "Sea Ray 350 Sundancer-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 2:21).",
+        "sighting": "Trailer 2: 2:21",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-cigarette-38-top-gun-inspired-boat",
+      "name": "Cigarette 38' Top Gun-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:23).",
+        "sighting": "Trailer 1: 0:23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-contender-39st-inspired-boat",
+      "name": "Contender 39ST-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 05, Grassrivers 02).",
+        "sighting": "Official Screenshot: Leonida Keys 05, Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-crownline-275-ss-inspired-boat",
+      "name": "Crownline 275 SS-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:03).",
+        "sighting": "Trailer 1: 0:03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-frauscher-1017-gt-inspired-boat",
+      "name": "Frauscher 1017 GT-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:12, 0:23, Trailer 2: 2:27).",
+        "sighting": "Trailer 1: 0:12, 0:23, Trailer 2: 2:27",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-highfield-sport-900-inspired-boat",
+      "name": "Highfield Sport 900-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 02).",
+        "sighting": "Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-horizon-pc60-inspired-yacht",
+      "name": "Horizon PC60-inspired yacht",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:11, Official Screenshot: Leonida Keys 05).",
+        "sighting": "Trailer 1: 0:11, Official Screenshot: Leonida Keys 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-lurssen-73m-coral-ocean-inspired-yacht",
+      "name": "Lürssen 73m Coral Ocean-inspired yacht",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-panther-inspired-airboat",
+      "name": "Panther-inspired airboat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:20).",
+        "sighting": "Trailer 1: 0:20",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-riva-86-domino-inspired-yacht",
+      "name": "Riva 86 Domino-inspired yacht",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sea-doo-rxt-x-300-inspired-boat",
+      "name": "Sea-Doo RXT-X 300-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:23, Trailer 2: 0:35).",
+        "sighting": "Trailer 1: 0:23, Trailer 2: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-skater-388-inspired-boat",
+      "name": "Skater 388-inspired boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:03 and 0:23, Official Screenshot: Leonida Keys 05).",
+        "sighting": "Trailer 1: 0:03 and 0:23, Official Screenshot: Leonida Keys 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-cruise-ship",
+      "name": "Cruise ship",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 08).",
+        "sighting": "Official Screenshot: Vice City 08",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dive-boat",
+      "name": "Dive boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-fishing-boat",
+      "name": "Fishing boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 02).",
+        "sighting": "Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-offshore-supply-ship",
+      "name": "Offshore supply ship",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sailing-yacht",
+      "name": "Sailing yacht",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-07-09 15-18-02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-self-propelled-barge",
+      "name": "Self-propelled barge",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35, Trailer 2: 0:12).",
+        "sighting": "Trailer 1: 0:35, Trailer 2: 0:12",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-shrimp-boat",
+      "name": "Shrimp boat",
+      "vehicleClass": "boats",
+      "status": "unverified",
+      "wikiClass": "Boats",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tethered-aerostat-radar-system-inspired-aircraft",
+      "name": "Tethered Aerostat Radar System-inspired aircraft",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Planes & blimps",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 0:35).",
+        "sighting": "Trailer 1: 0:35",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-weazel-news-helicopter",
+      "name": "Weazel News helicopter",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Helicopters",
+      "returning": false,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Mount Kalaga National Park 02).",
+        "sighting": "Official Screenshot: Mount Kalaga National Park 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-8f-drafter",
+      "name": "8F Drafter",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia 01).",
+        "sighting": "Official Screenshot: Ambrosia 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-alpha",
+      "name": "Alpha",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-14 13-42-00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-banshee",
+      "name": "Banshee",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-blista-compact",
+      "name": "Blista Compact",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Port Gellhorn Postcard).",
+        "sighting": "Official Screenshot: Port Gellhorn Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buffalo",
+      "name": "Buffalo",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-carbonizzare",
+      "name": "Carbonizzare",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-cheetah-classic",
+      "name": "Cheetah Classic",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-comet-retro-custom",
+      "name": "Comet Retro Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-comet-s2-cabrio",
+      "name": "Comet S2 Cabrio",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-coquette",
+      "name": "Coquette",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-coquette-d10",
+      "name": "Coquette D10",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-cypher",
+      "name": "Cypher",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-elegy-retro-custom",
+      "name": "Elegy Retro Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-futo",
+      "name": "Futo",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-growler",
+      "name": "Growler",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-itali-gto",
+      "name": "Itali GTO",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-jugular",
+      "name": "Jugular",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-locust",
+      "name": "Locust",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-01-20 11-18-26",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-paragon-r",
+      "name": "Paragon R",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Website animation: Jason → Lucia).",
+        "sighting": "Website animation: Jason → Lucia",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-penumbra",
+      "name": "Penumbra",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-schafter-lwb",
+      "name": "Schafter LWB",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-09-01 14-37-21",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-schafter-v12",
+      "name": "Schafter V12",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sugoi",
+      "name": "Sugoi",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshots: Grassrivers 02 & Vice City 03).",
+        "sighting": "Official Screenshots: Grassrivers 02 & Vice City 03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sultan",
+      "name": "Sultan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vectre",
+      "name": "Vectre",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-v-str",
+      "name": "V-STR",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sports",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia Postcard).",
+        "sighting": "Official Screenshot: Ambrosia Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buccaneer",
+      "name": "Buccaneer",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buccaneer-custom",
+      "name": "Buccaneer Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buffalo-stx",
+      "name": "Buffalo STX",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:00).",
+        "sighting": "Trailer 1: 1:00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-chino",
+      "name": "Chino",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dominator",
+      "name": "Dominator",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dominator-asp",
+      "name": "Dominator ASP",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dominator-gt",
+      "name": "Dominator GT",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia 05).",
+        "sighting": "Official Screenshot: Ambrosia 05",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dominator-gtx",
+      "name": "Dominator GTX",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-gauntlet-classic-custom",
+      "name": "Gauntlet Classic Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-gauntlet-hellfire",
+      "name": "Gauntlet Hellfire",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-impaler-sz",
+      "name": "Impaler SZ",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshots: Grassrivers 02, Leonida Keys 02, Vice City 03, Vice City 08).",
+        "sighting": "Official Screenshots: Grassrivers 02, Leonida Keys 02, Vice City 03, Vice City 08",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-phoenix",
+      "name": "Phoenix",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ruiner",
+      "name": "Ruiner",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sabre-turbo",
+      "name": "Sabre Turbo",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-07-20 17-59-49",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-slamvan",
+      "name": "Slamvan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tulip",
+      "name": "Tulip",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tulip-m-100",
+      "name": "Tulip M-100",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia 01).",
+        "sighting": "Official Screenshot: Ambrosia 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-vigero-zx-convertible",
+      "name": "Vigero ZX Convertible",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Muscle",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 09).",
+        "sighting": "Official Screenshot: Vice City 09",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-furia",
+      "name": "Furia",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Super",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tempesta",
+      "name": "Tempesta",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Super",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-zorrusso",
+      "name": "Zorrusso",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Super",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-infernus-classic",
+      "name": "Infernus Classic",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sports Classics",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-asterope-gz",
+      "name": "Asterope GZ",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 02).",
+        "sighting": "Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-emperor",
+      "name": "Emperor",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": "Emperor"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-05-03 11-20-11 & Americas 2021-07-12 12-19-51 & Trailer 2 + various Official Screenshots",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-ingot",
+      "name": "Ingot",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-07-12 12-19-51",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-intruder",
+      "name": "Intruder",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-14 13-42-00 & Trailer 1: 0:46, 1:03 and 1:07",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-primo",
+      "name": "Primo",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-primo-custom",
+      "name": "Primo Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-regina",
+      "name": "Regina",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2021-09-10 16-37-50",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-stanier",
+      "name": "Stanier",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-01-20 11-18-26",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-stratum",
+      "name": "Stratum",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tailgater",
+      "name": "Tailgater",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Sedans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-aleutian",
+      "name": "Aleutian",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-astron",
+      "name": "Astron",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-baller",
+      "name": "Baller",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-contender",
+      "name": "Contender",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia Postcard).",
+        "sighting": "Official Screenshot: Ambrosia Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dorado",
+      "name": "Dorado",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 02).",
+        "sighting": "Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dubsta",
+      "name": "Dubsta",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-granger",
+      "name": "Granger",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-granger-3600lx",
+      "name": "Granger 3600LX",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-jubilee",
+      "name": "Jubilee",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-landstalker-xl",
+      "name": "Landstalker XL",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mesa",
+      "name": "Mesa",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 01).",
+        "sighting": "Official Screenshot: Leonida Keys 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-novak",
+      "name": "Novak",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-14 13-42-00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-toros",
+      "name": "Toros",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-09-13 19-08-17, Americas 2022-09-13 17-17-43, Americas 2022-09-13 17-16-42 (Interior only) & Official Screenshot: Vice City 08",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rebla-gts",
+      "name": "Rebla GTS",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "December 2023 GTA V source code leaks",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-xls",
+      "name": "XLS",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "SUVs",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-07-09 15-18-02 (LOD model)",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-zion",
+      "name": "Zion",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Coupes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Artwork: Jason and Lucia 02).",
+        "sighting": "Artwork: Jason and Lucia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-avarus",
+      "name": "Avarus",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Ambrosia 01).",
+        "sighting": "Official Screenshot: Ambrosia 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-carbon-rs",
+      "name": "Carbon RS",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-double-t",
+      "name": "Double T",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-faggio",
+      "name": "Faggio",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Website animation: Jason → Lucia).",
+        "sighting": "Website animation: Jason → Lucia",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-manchez",
+      "name": "Manchez",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Mount Kalaga National Park 01).",
+        "sighting": "Official Screenshot: Mount Kalaga National Park 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sanchez",
+      "name": "Sanchez",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sanchez-livery",
+      "name": "Sanchez (livery)",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-10-29 20-21-10",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-zombie-chopper",
+      "name": "Zombie Chopper",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Motorcycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 1:37).",
+        "sighting": "Trailer 2: 1:37",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-blazer",
+      "name": "Blazer",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-caracara-4x4",
+      "name": "Caracara 4x4",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": "Caracara"
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-hellion",
+      "name": "Hellion",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-kamacho",
+      "name": "Kamacho",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Artwork: Jason and Lucia 02).",
+        "sighting": "Artwork: Jason and Lucia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-outlaw",
+      "name": "Outlaw",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rebel",
+      "name": "Rebel",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-08-02 18-34-23, Americas 2022-07-14 13-42-00 & Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sandking-xl",
+      "name": "Sandking XL",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-street-blazer",
+      "name": "Street Blazer",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-11-05 11-09-23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-verus",
+      "name": "Verus",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-walton-l35-stock",
+      "name": "Walton L35 Stock",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 02 & Port Gellhorn 04).",
+        "sighting": "Official Screenshot: Leonida Keys 02 & Port Gellhorn 04",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-yosemite-1500",
+      "name": "Yosemite 1500",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Off-Road",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 02, Ambrosia & Port Gellhorn postcards).",
+        "sighting": "Official Screenshot: Leonida Keys 02, Ambrosia & Port Gellhorn postcards",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bmx",
+      "name": "BMX",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Cycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2: 1:43).",
+        "sighting": "Trailer 2: 1:43",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-cruiser",
+      "name": "Cruiser",
+      "vehicleClass": "bikes",
+      "status": "unverified",
+      "wikiClass": "Cycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 02).",
+        "sighting": "Official Screenshot: Leonida Keys 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-scorcher",
+      "name": "Scorcher",
+      "vehicleClass": "bikes",
+      "status": "rumour",
+      "wikiClass": "Cycles",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2021-09-10 16-37-50, Trailer 1: 1:07",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-bobcat-xl",
+      "name": "Bobcat XL",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-boxville",
+      "name": "Boxville",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-05-03 11-20-11 & Official Screenshot: Ambrosia 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-burrito",
+      "name": "Burrito",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:03).",
+        "sighting": "Trailer 1: 1:03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-camper",
+      "name": "Camper",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-09-06 17-13-34 (prop)",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-journey-ii",
+      "name": "Journey II",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Grassrivers 02).",
+        "sighting": "Official Screenshot: Grassrivers 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-minivan",
+      "name": "Minivan",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-01-20 11-18-26",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-moonbeam",
+      "name": "Moonbeam",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-11-05 11-09-23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rumpo-custom",
+      "name": "Rumpo Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-07-12 12-19-51",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-speedo",
+      "name": "Speedo",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-youga",
+      "name": "Youga",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-07-12 12-19-51",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-youga-classic",
+      "name": "Youga Classic",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Vans",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-boat-trailer",
+      "name": "Boat Trailer",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Utility",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sadler",
+      "name": "Sadler",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Utility",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-11-05 11-09-23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-tow-truck-yankee-based",
+      "name": "Tow Truck (Yankee-based)",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Utility",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-trailer",
+      "name": "Trailer",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Utility",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 08).",
+        "sighting": "Official Screenshot: Vice City 08",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-utility-truck-contender-based",
+      "name": "Utility Truck (Contender-based)",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Utility",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-11-05 11-09-23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mixer-4-axle",
+      "name": "Mixer (4-axle)",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Industrial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2021-11-05 11-09-23",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-rubble",
+      "name": "Rubble",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Industrial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dashound",
+      "name": "Dashound",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Service",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": "Leonida Keys Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-benson",
+      "name": "Benson",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas 2022-07-14 13-42-00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-biff",
+      "name": "Biff",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2021-09-10 16-37-50",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mule",
+      "name": "Mule",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2021-09-10 16-37-50",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-packer",
+      "name": "Packer",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-phantom",
+      "name": "Phantom",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Leonida Keys 01).",
+        "sighting": "Official Screenshot: Leonida Keys 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-phantom-custom",
+      "name": "Phantom Custom",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Commercial",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buffalo-stx-pursuit",
+      "name": "Buffalo STX Pursuit",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 1: 1:07).",
+        "sighting": "Trailer 1: 1:07",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-gauntlet-interceptor",
+      "name": "Gauntlet Interceptor",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-police-cruiser-interceptor",
+      "name": "Police Cruiser (interceptor)",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-police-cruiser-buffalo",
+      "name": "Police Cruiser (Buffalo)",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-police-riot",
+      "name": "Police Riot",
+      "vehicleClass": "cars",
+      "status": "unverified",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in an official trailer (Trailer 2).",
+        "sighting": "Trailer 2",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sheriff-suv",
+      "name": "Sheriff SUV",
+      "vehicleClass": "cars",
+      "status": "rumour",
+      "wikiClass": "Emergency",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-08-02 20-20-00",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dinghy",
+      "name": "Dinghy",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-marquis",
+      "name": "Marquis",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-reefer",
+      "name": "Reefer",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-05-05 10-00-47",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-seashark",
+      "name": "Seashark",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-squalo",
+      "name": "Squalo",
+      "vehicleClass": "boats",
+      "status": "rumour",
+      "wikiClass": "Boats",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Appears only in the September 2022 leaks.",
+        "sighting": "September 2022 leaks: Americas_1 2022-03-03 10-43-31 (could be just a prop) & Official Screenshot: Leonida Keys 02",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-buzzard-attack-chopper",
+      "name": "Buzzard Attack Chopper",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-maverick",
+      "name": "Maverick",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-police-maverick",
+      "name": "Police Maverick",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-sea-sparrow",
+      "name": "Sea Sparrow",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-supervolito",
+      "name": "SuperVolito",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-swift",
+      "name": "Swift",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Helicopters",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 03).",
+        "sighting": "Official Screenshot: Vice City 03",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-dodo",
+      "name": "Dodo",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-duster",
+      "name": "Duster",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshots: Ambrosia 04 & Mount Kalaga National Park Postcard).",
+        "sighting": "Official Screenshots: Ambrosia 04 & Mount Kalaga National Park Postcard",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-jet",
+      "name": "Jet",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-mammatus",
+      "name": "Mammatus",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Website Artwork: Leonida Keys).",
+        "sighting": "Website Artwork: Leonida Keys",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-nimbus",
+      "name": "Nimbus",
+      "vehicleClass": "aircraft",
+      "status": "rumour",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Community-tracked; provenance not recorded on the wiki.",
+        "sighting": null,
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "veh-shamal",
+      "name": "Shamal",
+      "vehicleClass": "aircraft",
+      "status": "unverified",
+      "wikiClass": "Planes",
+      "returning": true,
+      "specs": {
+        "manufacturer": null
+      },
+      "performance": {},
+      "addedIn": null,
+      "provenance": {
+        "note": "Seen in official Rockstar material (Official Screenshot: Vice City 01).",
+        "sighting": "Official Screenshot: Vice City 01",
+        "source": "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI/table",
+        "sourceName": "GTA Wiki",
+        "licence": "CC BY-SA 3.0"
+      }
+    }
+  ],
+  "secrets": [],
+  "etag": "c297aff54fb2f5ab"
+}
