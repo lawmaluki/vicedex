@@ -121,7 +121,7 @@ class PackCodec {
       // A record from the pipeline is real data, not a layout stand-in.
       isPlaceholder: m['isPlaceholder'] as bool? ?? false,
       addedIn: m['addedIn'] as String?,
-      game: m['game'] as String? ?? 'VI',
+      game: m['game'] as String? ?? kCurrentGame,
       provenance: _provenance(m['provenance']),
     );
   }

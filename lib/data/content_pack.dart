@@ -75,9 +75,11 @@ class ContentPack {
   List<ContentNotice> noticesFor(String scope) =>
       notices.where((n) => n.scope == scope).toList(growable: false);
 
-  /// Cheats confirmed for GTA VI. Legacy GTA V codes are excluded: they are
-  /// reference material, not codes for this game.
-  List<Cheat> get currentGameCheats => cheats.where((c) => c.game == 'VI').toList(growable: false);
+  /// Cheats for [kCurrentGame]. Codes from any other game are excluded: they
+  /// are reference material, not codes for this game.
+  List<Cheat> get currentGameCheats =>
+      cheats.where((c) => c.game == kCurrentGame).toList(growable: false);
 
-  List<Cheat> get legacyCheats => cheats.where((c) => c.game != 'VI').toList(growable: false);
+  List<Cheat> get legacyCheats =>
+      cheats.where((c) => c.game != kCurrentGame).toList(growable: false);
 }

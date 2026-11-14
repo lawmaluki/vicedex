@@ -28,8 +28,8 @@ class _CheatLibraryScreenState extends State<CheatLibraryScreen> {
         .where((c) => _category == CheatCategory.all || c.category == _category)
         .toList();
     final featured = list.isEmpty ? null : list.first;
-    // While no GTA VI codes are confirmed the library shows GTA V's real codes,
-    // so say which set is on screen rather than letting them look like VI codes.
+    // If the pack has no codes for the current game the library falls back to
+    // another game's codes, so say which set is on screen.
     final showingLegacy = app.cheats.isEmpty && app.legacyCheats.isNotEmpty;
 
     if (app.status == LoadStatus.loading) {
@@ -41,7 +41,7 @@ class _CheatLibraryScreenState extends State<CheatLibraryScreen> {
       children: [
         ScreenHeader(
           title: 'Cheat Library',
-          caption: showingLegacy ? 'GTA V codes · reference' : 'Unofficial fan companion',
+          caption: showingLegacy ? 'Codes from another GTA game · reference' : 'GTA V · Unofficial fan companion',
           actions: [
             AppIconButton(
               icon: PhosphorIconsBold.plus,

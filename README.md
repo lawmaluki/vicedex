@@ -1,6 +1,6 @@
-# ViceDex – GTA VI companion (Flutter + backend)
+# ViceDex – GTA companion (Flutter + backend)
 
-An unofficial, fan-made companion for Grand Theft Auto VI. Not affiliated with or endorsed by Rockstar Games.
+An unofficial, fan-made companion for Grand Theft Auto V. Not affiliated with or endorsed by Rockstar Games.
 
 The visual style is flat and dark: near-black background, rose-pink accent, translucent cards, Inter type and Phosphor icons, with a floating pill nav.
 
@@ -68,25 +68,25 @@ MediaWiki API (CC BY-SA 3.0) and builds a validated JSON content pack:
 
 | Section | Count today | Source |
 | --- | --- | --- |
-| GTA VI cheats | **0** | Nothing is confirmed — see below |
-| GTA V cheats (reference) | 43 | `Cheats in GTA V`, real codes for PS / Xbox / PC |
-| GTA VI vehicles | ~250 | `Vehicles in GTA VI/table`, from trailers, screenshots and leaks |
-| Secrets | 0 | The GTA VI page does not exist yet |
+| Cheats | 43 | `Cheats in GTA V`, real codes for PS / Xbox / PC |
+| Vehicles | 342 | `Vehicles in GTA V/table`, every controllable model by class |
+| Secrets | ~316 | `Secrets and Easter Eggs in GTA V` |
 
 Attribution travels with every record and is shown on the detail screens,
 because the licence requires it.
 
-### There are still no GTA VI cheat codes
+### Why GTA V
 
-The game lands on 19 November 2026. As of 12 November, Rockstar has not
-confirmed whether it has cheat codes at all. So the app ships **no invented
-GTA VI codes**: the library shows GTA V's real codes, labelled "GTA V codes ·
-reference", with a notice explaining why. The pipeline is already pointed at
-the GTA VI cheats page and will pick up real codes the moment they appear.
+The content is GTA V's because it is a released game with real, tested data.
+GTA VI has no confirmed cheat codes, and the app does not invent or promote
+pre-launch rumours. The GTA VI parsers are still in `backend/ingest`; switching
+back is a one-line change in the backend and one constant in the app (see
+`backend/README.md`).
 
-`verified` is reserved for codes tested in a released game, and nothing
-scraped from a wiki can earn it. Officially shown content is `unverified`;
-leaked content is `rumour`. Tests on both sides of the stack enforce this.
+Cheat codes and vehicles are `verified`, because they exist in the released
+game. Secrets stay `unverified`: they are community write-ups, and a scrape
+cannot show anyone reproduced them. Tests on both sides of the stack enforce
+this.
 
 ## Running it with a backend
 

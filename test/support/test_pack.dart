@@ -33,7 +33,7 @@ const sampleCheat = {
   'summary': 'Spawns a helicopter next to the player.',
   'keywords': ['heli', 'chopper', 'spawn'],
   'status': 'verified',
-  'game': 'VI',
+  'game': 'V',
   'sequences': {
     'ps5': ['○', '○', 'L1', '○'],
     'xbox': ['B', 'B', 'LB', 'B'],

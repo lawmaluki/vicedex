@@ -135,8 +135,8 @@ class _CheatDetailScreenState extends State<CheatDetailScreen> {
                     if (cheat.isLegacy) ...[
                       const SizedBox(height: 10),
                       Text(
-                        'A real GTA V code, shown for reference. '
-                        'It is not confirmed to work in GTA VI.',
+                        'A code from another GTA game, shown for reference. '
+                        'It may not work in GTA $kCurrentGame.',
                         textAlign: TextAlign.center,
                         style: AppText.caption(context),
                       ),

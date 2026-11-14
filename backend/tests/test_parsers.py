@@ -179,6 +179,107 @@ class TestVehicles(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
 
 
+V_VEHICLE_FIXTURE = """
+===Vehicles by Class===
+{| class="wikitable" width=100%
+|-
+!Sports
+!Motorcycles
+|-
+|
+*[[Banshee (HD Universe)|Banshee]]
+*[[Alpha (HD Universe)|Alpha]] {{DLC|mpbusiness}}
+*[[Elegy RH8]] [R*]
+|
+*[[Bati 801]]
+|-
+!Sports Classics
+!Boats
+|-
+|
+*[[Tornado]]
+*[[Tornado (cabrio)|Tornado]] (cabrio)
+*[[Tornado (rusted)|Tornado]] (rusted)
+|
+*[[Dinghy]]
+|}
+"""
+
+V_SECRETS_FIXTURE = """
+==General==
+===Aliens===
+{| class="article-table sortable"
+|-
+! scope="col"|Image
+! scope="col"|Description
+|-
+|[[File:Alien-Egg-GTAV.png|175px|center]]
+|<u>Alien Egg</u><br>There is a hidden Alien Egg in the game files. See {{WP|Roswell|Roswell}}.{{Ref|name=x|ref={{Quote|hi|there}}}}
+*It glows in the dark when it is spawned by a trainer.
+|-
+|[[File:Ice.jpg|175px|center]]
+|<u>Alien in the Ice</u><br>Under the train bridge in North Yankton a frozen alien can be seen.
+|}
+==Adult Humor/Innuendos==
+{| class="article-table"
+|-
+|[[File:x.png]]
+|<u>Hidden Joke</u><br>This section should be skipped entirely by the parser.
+|}
+==References==
+{| class="article-table"
+|-
+|[[File:y.png]]
+|<u>Citation</u><br>References are never secrets and must be skipped.
+|}
+"""
+
+
+class TestGtaV(unittest.TestCase):
+    def setUp(self):
+        self.vehicles = wiki_vehicles.parse(V_VEHICLE_FIXTURE, game="V")
+        self.by_name = {r["name"]: r for r in self.vehicles}
+
+    def test_vehicles_in_the_released_game_are_verified(self):
+        self.assertTrue(self.vehicles)
+        self.assertTrue(all(r["status"] == "verified" for r in self.vehicles))
+
+    def test_dlc_and_edition_markers_do_not_make_a_vehicle_a_rumour(self):
+        # "[R*]" contains an asterisk that the VI parser reads as a leak marker.
+        self.assertEqual(self.by_name["Elegy RH8"]["status"], "verified")
+        self.assertIn("Alpha", self.by_name)
+
+    def test_variants_keep_their_qualifier_and_stay_distinct(self):
+        for name in ("Tornado", "Tornado (cabrio)", "Tornado (rusted)"):
+            self.assertIn(name, self.by_name)
+        self.assertEqual(len({r["id"] for r in self.vehicles}), len(self.vehicles))
+
+    def test_classes_map_to_app_classes(self):
+        self.assertEqual(self.by_name["Bati 801"]["vehicleClass"], "bikes")
+        self.assertEqual(self.by_name["Dinghy"]["vehicleClass"], "boats")
+        self.assertEqual(self.by_name["Banshee"]["vehicleClass"], "cars")
+
+    def test_provenance_points_at_the_v_page(self):
+        self.assertIn("Vehicles_in_GTA_V", self.by_name["Banshee"]["provenance"]["source"])
+
+    def test_table_secrets_become_records_under_their_heading(self):
+        records = wiki_secrets.parse(V_SECRETS_FIXTURE, game="V")
+        self.assertEqual([r["title"] for r in records], ["Alien Egg", "Alien in the Ice"])
+        self.assertTrue(all(r["area"] == "Aliens" for r in records))
+        self.assertTrue(all(r["status"] == "unverified" for r in records))
+
+    def test_secret_text_has_no_wiki_markup_left(self):
+        egg = wiki_secrets.parse(V_SECRETS_FIXTURE, game="V")[0]
+        for marker in ("{{", "}}", "[[", "<u>", "<br"):
+            self.assertNotIn(marker, egg["summary"])
+        self.assertIn("Roswell", egg["summary"])
+
+    def test_adult_and_reference_sections_are_skipped(self):
+        titles = [r["title"] for r in wiki_secrets.parse(V_SECRETS_FIXTURE, game="V")]
+        self.assertNotIn("Hidden Joke", titles)
+        self.assertNotIn("Citation", titles)
+
+
 class TestCheats(unittest.TestCase):
     def setUp(self):
         self.records = wiki_cheats.parse(CHEAT_FIXTURE, "Cheats in GTA V", "V", "verified")

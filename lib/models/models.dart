@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../theme/phosphor.dart';
 
+/// The game this app's content is about. Pack records carry their own `game`.
+const String kCurrentGame = 'V';
+
 enum GamePlatform {
   ps5('PlayStation 5', 'PS5', 'Console'),
   xbox('Xbox Series X|S', 'Xbox', 'Console'),
@@ -82,7 +85,7 @@ class Cheat {
     this.lastTested,
     this.isPlaceholder = true,
     this.addedIn,
-    this.game = 'VI',
+    this.game = kCurrentGame,
     this.provenance,
   });
 
@@ -105,13 +108,13 @@ class Cheat {
   /// change between patches, so this tells players whether it still applies.
   final String? addedIn;
 
-  /// Which game the code belongs to: `VI`, or `V` for the legacy reference set
-  /// shipped while no GTA VI codes are confirmed.
+  /// Which game the code belongs to, e.g. `V`. Codes for any game other than
+  /// [kCurrentGame] are shown as reference only.
   final String game;
 
   final Provenance? provenance;
 
-  bool get isLegacy => game != 'VI';
+  bool get isLegacy => game != kCurrentGame;
 
   List<String> sequenceFor(GamePlatform p) => sequences[p] ?? const [];
 

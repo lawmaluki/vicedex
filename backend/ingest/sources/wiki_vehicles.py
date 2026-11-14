@@ -28,6 +28,9 @@ from ingest import wiki  # noqa: E402
 from ingest.normalize import slug  # noqa: E402
 
 PAGE = "Vehicles in GTA VI/table"
+PAGE_V = "Vehicles in GTA V/table"
+
+PAGES = {"VI": PAGE, "V": PAGE_V}
 
 # Wiki column header -> ViceDex VehicleClass enum name. Headers not listed here
 # (trailers, trains, unknown) are skipped; the app has no class for them.
@@ -180,7 +183,8 @@ def _parse_bullet(raw, note):
     if not label:
         return None
     leak_marker = bool(m.group("leak")) or "*" in (m.group("rest") or "")
-    return {"target": target or label, "name": label, "leak": leak_marker, "note": note}
+    return {"target": target or label, "name": label, "leak": leak_marker, "note": note,
+            "qualifier": _qualifier(m.group("rest"))}
 
 
 def _bullets(cell_lines):
@@ -198,8 +202,23 @@ def _bullets(cell_lines):
     return out
 
 
-def _status_for(entry):
-    """Leaks are rumour; anything officially depicted is unverified."""
+def _qualifier(rest):
+    """A trailing ``(cabrio)`` / ``(rusted)`` after the link tells variants apart.
+
+    The GTA V table links several variants to one display name, e.g.
+    ``[[Tornado (cabrio)|Tornado]] (cabrio)``. Without the qualifier they would
+    all collapse into one record.
+    """
+    rest = re.sub(r"\{\{[^}]*\}\}|\[[A-Z*]+\]", "", rest or "")
+    m = re.search(r"\(([^)]+)\)", rest)
+    return m.group(1).strip() if m else ""
+
+
+def _status_for(entry, game="VI"):
+    """GTA V: every listed model exists in the released game. GTA VI: leaks are
+    rumour; anything officially depicted is unverified."""
+    if game == "V":
+        return "verified", "Controllable vehicle in GTA V."
     note = entry["note"].lower()
     if entry["leak"] or "leak" in note:
         return "rumour", "Appears only in the September 2022 leaks."
@@ -217,15 +236,16 @@ def _manufacturer(name):
     return None
 
 
-def fetch(use_cache=True):
-    text = wiki.wikitext(PAGE, use_cache=use_cache)
+def fetch(use_cache=True, game="V"):
+    text = wiki.wikitext(PAGES[game], use_cache=use_cache)
     if not text:
         return []
-    return parse(text)
+    return parse(text, game=game)
 
 
-def parse(text):
-    source_url = wiki.page_url(PAGE)
+def parse(text, game="VI"):
+    page = PAGES[game]
+    source_url = wiki.page_url(page)
     seen = {}
     ordered = []
 
@@ -238,18 +258,21 @@ def parse(text):
             vclass = CLASS_MAP.get(header.lower())
             if vclass:
                 for entry in _bullets(cell):
-                    status, note = _status_for(entry)
-                    vid = "veh-" + slug(entry["name"])
+                    status, note = _status_for(entry, game)
+                    name = entry["name"]
+                    if game == "V" and entry.get("qualifier") and entry["qualifier"].lower() not in name.lower():
+                        name = "%s (%s)" % (name, entry["qualifier"])
+                    vid = "veh-" + slug(name)
                     if vid in seen:
                         continue
                     record = {
                         "id": vid,
-                        "name": entry["name"],
+                        "name": name,
                         "vehicleClass": vclass,
                         "status": status,
                         "wikiClass": header,
-                        "returning": section.lower().startswith("returning"),
-                        "specs": {"manufacturer": _manufacturer(entry["name"])},
+                        "returning": game == "VI" and section.lower().startswith("returning"),
+                        "specs": {"manufacturer": _manufacturer(name)},
                         "performance": {},
                         "addedIn": None,
                         "provenance": {

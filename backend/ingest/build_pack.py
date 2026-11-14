@@ -12,11 +12,10 @@ Usage:
     python3 -m ingest.build_pack --out DIR
     python3 -m ingest.build_pack --check         # build, validate, don't write
 
-Why there are no GTA VI cheats in the output: as of the wiki revision this was
-built against, Rockstar has confirmed none and no code has been tested in the
-released game. The pipeline ships GTA V's real codes as a clearly-labelled
-legacy reference instead of inventing GTA VI ones, and will pick up GTA VI
-codes automatically once the wiki table is filled in.
+The pack is built from GTA V, a released game with real, tested content: its
+cheat codes, its controllable vehicles and its documented secrets. The GTA VI
+parsers are kept in the source modules (``game="VI"``) but are not part of the
+build: nothing there has been confirmed in a released game yet.
 """
 
 import argparse
@@ -38,53 +37,29 @@ BUNDLED = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
                        "assets", "content_pack.json")
 
 
+GAME = "V"
+
+
 def build(use_cache=True):
-    vi_cheats = wiki_cheats.fetch_vi(use_cache=use_cache)
-    legacy_cheats = wiki_cheats.fetch_v(use_cache=use_cache)
-    vehicles = wiki_vehicles.fetch(use_cache=use_cache)
-    secrets = wiki_secrets.fetch(use_cache=use_cache)
+    cheats = wiki_cheats.fetch_v(use_cache=use_cache)
+    vehicles = wiki_vehicles.fetch(use_cache=use_cache, game=GAME)
+    secrets = wiki_secrets.fetch(use_cache=use_cache, game=GAME)
 
-    notices = []
-    if not vi_cheats:
-        notices.append({
-            "id": "no-vi-cheats",
-            "scope": "cheats",
-            "severity": "info",
-            "title": "No GTA VI cheat codes are confirmed yet",
-            "body": "Rockstar has not revealed whether GTA VI has cheat codes, and none "
-                    "have been tested in the released game. Any code circulating before "
-                    "launch is unverified. The GTA V codes below are shown as a reference "
-                    "for what the format usually looks like.",
-            "source": wiki.page_url(wiki_cheats.VI_PAGE),
-        })
-    if not secrets:
-        notices.append({
-            "id": "no-vi-secrets",
-            "scope": "secrets",
-            "severity": "info",
-            "title": "Secrets are catalogued after launch",
-            "body": "The GTA Wiki has no secrets-and-easter-eggs page for GTA VI yet. "
-                    "This list fills in as locations are found and documented.",
-            "source": wiki.page_url(wiki_secrets.PAGE),
-        })
-
-    cheats = vi_cheats + legacy_cheats
     pack = {
         "version": PACK_VERSION,
+        "game": GAME,
         "generatedAt": datetime.datetime.now(datetime.timezone.utc)
             .replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "sources": [
             {"name": "GTA Wiki", "url": "https://gta.fandom.com/", "licence": wiki.LICENCE,
-             "pages": [wiki_cheats.VI_PAGE, wiki_cheats.V_PAGE,
-                       wiki_vehicles.PAGE, wiki_secrets.PAGE]},
+             "pages": [wiki_cheats.V_PAGE, wiki_vehicles.PAGES[GAME], wiki_secrets.PAGES[GAME]]},
         ],
         "counts": {
-            "cheatsVI": len(vi_cheats),
-            "cheatsLegacy": len(legacy_cheats),
+            "cheats": len(cheats),
             "vehicles": len(vehicles),
             "secrets": len(secrets),
         },
-        "notices": notices,
+        "notices": [],
         "cheats": cheats,
         "vehicles": vehicles,
         "secrets": secrets,
@@ -137,8 +112,7 @@ def main(argv=None):
 
     counts = pack["counts"]
     print("pack v%d  etag %s  generated %s" % (pack["version"], pack["etag"], pack["generatedAt"]))
-    print("  GTA VI cheats   %4d" % counts["cheatsVI"])
-    print("  legacy cheats   %4d  (GTA V, reference)" % counts["cheatsLegacy"])
+    print("  cheats          %4d  (GTA V)" % counts["cheats"])
     print("  vehicles        %4d" % counts["vehicles"])
     print("  secrets         %4d" % counts["secrets"])
     for notice in pack["notices"]:

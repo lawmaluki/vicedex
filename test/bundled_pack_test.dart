@@ -31,16 +31,19 @@ void main() {
     expect(ids.toSet(), hasLength(ids.length));
   });
 
-  test('no GTA VI entry claims to be verified without being tested', () {
-    // Verified means confirmed in the released game. A scrape cannot establish
-    // that, so anything the pipeline marks verified must be a legacy GTA V
-    // code, where it is true.
-    final wronglyVerified = [
-      ...pack.currentGameCheats.where((c) => c.status == VerificationStatus.verified),
-      ...pack.vehicles.where((v) => v.status == VerificationStatus.verified),
-      ...pack.secrets.where((s) => s.status == VerificationStatus.verified),
-    ];
-    expect(wronglyVerified, isEmpty);
+  test('wiki secrets are never marked verified', () {
+    // Cheat codes and vehicles in a released game can be verified from the game
+    // itself. A secret is a community write-up, and a scrape cannot establish
+    // that anyone reproduced it.
+    expect(
+      pack.secrets.where((s) => s.status == VerificationStatus.verified),
+      isEmpty,
+    );
+  });
+
+  test('the pack is for the current game', () {
+    expect(pack.currentGameCheats, isNotEmpty);
+    expect(pack.legacyCheats, isEmpty);
   });
 
   test('every cheat has at least one platform sequence', () {

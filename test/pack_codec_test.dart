@@ -28,12 +28,12 @@ void main() {
 
   test('splits current-game cheats from the legacy reference set', () {
     final pack = codec.decode(testPackJson(cheats: [
-      {...sampleCheat, 'id': 'vi-1', 'game': 'VI'},
-      {...sampleCheat, 'id': 'v-1', 'game': 'V', 'title': 'Legacy code'},
+      {...sampleCheat, 'id': 'v-1', 'game': kCurrentGame},
+      {...sampleCheat, 'id': 'iv-1', 'game': 'IV', 'title': 'Legacy code'},
     ]));
 
-    expect(pack.currentGameCheats.map((c) => c.id), ['vi-1']);
-    expect(pack.legacyCheats.map((c) => c.id), ['v-1']);
+    expect(pack.currentGameCheats.map((c) => c.id), ['v-1']);
+    expect(pack.legacyCheats.map((c) => c.id), ['iv-1']);
     expect(pack.legacyCheats.single.isLegacy, isTrue);
   });
 

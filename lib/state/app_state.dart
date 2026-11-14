@@ -76,10 +76,10 @@ class AppState extends ChangeNotifier {
 
   // --- content --------------------------------------------------------------
 
-  /// Codes for this game. Empty until GTA VI cheats are confirmed.
+  /// Codes for the current game.
   List<Cheat> get cheats => _pack.currentGameCheats;
 
-  /// Real codes from GTA V, shown as reference while [cheats] is empty.
+  /// Codes from other games, shown as reference only while [cheats] is empty.
   List<Cheat> get legacyCheats => _pack.legacyCheats;
 
   /// What the cheat library should list: the current game's codes when there
